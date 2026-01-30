@@ -1,0 +1,20 @@
+{
+  "name": "xarch",
+  "version": "1.0.0",
+  "description": "Search your X likes archive",
+  "type": "module",
+  "bin": {
+    "xarch": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["x", "twitter", "archive", "search"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "typescript": "^5.9.3"
+  }
+}
